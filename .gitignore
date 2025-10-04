@@ -1,0 +1,28 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Python Bytecode and Metadata
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Data/Trained Models (unversioned assets)
+# If your model directory contains very large files you do NOT want to version control
+# For example, trained weights:
+# model/*.h5
+# model/*.pkl
+# model/*.pth
+*.npy
+*.npz
+
+# Logs and Documentation
+*.log
+docs/_build/
+
+# Operating System and Editor Files
+.DS_Store
+.vscode/
+Thumbs.db
